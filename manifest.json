@@ -1,8 +1,8 @@
 {
     "name": "Offline Counter",
     "short_name": "Counter",
-    "start_url": "/halalCounterOffline/",
-    "scope": "/",
+    "start_url": "/HalalCounterOffline/?source=pwa",
+    "scope": "/HalalCounterOffline/",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
@@ -51,6 +51,22 @@
             "src": "icons/Icon-144.png",
             "sizes": "144x144",
             "type": "image/png"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "New Count",
+            "short_name": "New",
+            "description": "Start a new counter",
+            "url": "/new?source=pwa",
+            "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96" }]
+        },
+        {
+            "name": "Reset Counter",
+            "short_name": "Reset",
+            "description": "Reset current counter",
+            "url": "/reset?source=pwa",
+            "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96" }]
         }
     ]
 }
