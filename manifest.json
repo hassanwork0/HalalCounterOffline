@@ -2,7 +2,7 @@
     "name": "Offline Counter",
     "short_name": "Counter",
     "start_url": "/?source=pwa",
-    "scope": "/",
+    "scope": "/halalCounterOffline/",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
